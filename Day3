@@ -1,1 +1,27 @@
 
+public class PrintMistake 
+{
+	public static void main(String[] args) 
+	{
+		String s1="abcdefqwa";
+		String s2="gfdkghye";
+		String s3="abcd";
+		String s4="efgh";
+		String ex1s1=s1.replace("ab","ye");
+		String exs1=ex1s1.replace("wa","gf");
+		String ex2s2=s2.replace("gf","wa");
+		String exs2=ex2s2.replace("ye","ab");
+		String ex3s3=s3.replace("ab","gh");
+		String exs3=ex3s3.replace("cd","ef");
+		String ex4s4=s4.replace("ef","cd");
+		String exs4=ex4s4.replace("gh","ab");
+		System.out.println("String1:"+exs1);
+		System.out.println("String2:"+exs2);
+		System.out.println("String3:"+exs3);
+		System.out.println("String4:"+exs4);
+		
+		
+	}
+
+}
+
